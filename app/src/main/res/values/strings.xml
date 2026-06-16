@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SmartAnswer</string>
+    <string name="record_greeting">Record Greeting</string>
+    <string name="help">Help</string>
+    <string name="record_your_greeting">Record your greeting</string>
+    <string name="record_description">Tap the button to start recording your outgoing message for callers.</string>
+    <string name="minutes">MINUTES</string>
+    <string name="seconds">SECONDS</string>
+    <string name="discard">Discard</string>
+    <string name="save">Save</string>
+</resources>
