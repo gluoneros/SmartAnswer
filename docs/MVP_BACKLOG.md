@@ -26,12 +26,12 @@
 | ID | Ticket | SP | Prioridad | Dependencias | Estado |
 |----|--------|----|-----------|--------------|--------|
 | MVP-T1 | Configurar la estructura del proyecto Android con dependencias de Jetpack Compose y Material3. Ajustar `app/build.gradle` con SDK compilación 34 y mínimo 24. | 1 | Alta | Ninguna | ✅ |
-| MVP-T2 | Implementar persistencia de configuración local con `DataStore Preferences` creando `DataStoreManager`. Almacenar claves: contestador activo (Boolean), tipo de saludo (Enum), ID de saludo predefinido (Int), ruta de saludo personalizado (String) y modo horario (Enum). | 2 | Alta | MVP-T1 | ⬜ |
+| MVP-T2 | Implementar persistencia de configuración local con `DataStore Preferences` creando `DataStoreManager`. Almacenar claves: contestador activo (Boolean), tipo de saludo (Enum), ID de saludo predefinido (Int), ruta de saludo personalizado (String) y modo horario (Enum). | 2 | Alta | MVP-T1 | ✅ |
 | MVP-T3 | Crear Foreground Service (`SmartAnswerService`) y canal de notificación permanente obligatorio (`foregroundServiceType="phoneCall"`) para evitar que Android destruya la app en reposo. | 3 | Alta | MVP-T2 | ⬜ |
 
 **Criterios de Aceptación del Grupo:**
 - [x] Entorno y dependencias de Material3 configurados correctamente
-- [ ] Manager de DataStore Preferences funcionando para todas las claves de configuración
+- [x] Manager de DataStore Preferences funcionando para todas las claves de configuración
 - [ ] Foreground Service creado y visible en la barra de estado con notificación persistente
 
 ---
